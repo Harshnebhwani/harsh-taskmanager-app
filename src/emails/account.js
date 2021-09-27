@@ -13,7 +13,7 @@ const welcomeEmail = (email, name) => {
       html: `Welcome to tha app <strong>${name}</strong>`,
     })
     .then(() => {
-      console.log('Email sent')
+      // console.log('Email sent')
     })
     .catch((error) => {
       console.error(error)
@@ -29,7 +29,7 @@ const cancelEmail = (email, name) => {
       html: `Goodbye, <strong>${name}</strong>`,
     })
     .then(() => {
-      console.log('Email sent')
+      // console.log('Email sent')
     })
     .catch((error) => {
       console.error(error)
